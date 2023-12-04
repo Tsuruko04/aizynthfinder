@@ -44,6 +44,14 @@ for a smaller package, without all the functionality, you can also type
 
 First clone the repository using Git.
 
+Before installing dependecies, you need to confirm that your system has installed python3-devel, if not,please install it first.
+    
+    sudo apt-get apt-get install python3-dev
+or
+
+    yum install python3-devel
+
+
 Then execute the following commands in the root of the repository 
 
     conda env create -f env-dev.yml
